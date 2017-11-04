@@ -5,10 +5,10 @@
 The purpose of these notebooks is to highlight how Python can be applied to
 solve common problems in geoscience data processing.  These include:
 
-+  Automatically processing data from multiple files
-+  Dealing with time-series data
-+  Working with database-style data tables
-+  Plotting data on maps
+1.  Automatically processing data from multiple files
+2.  Dealing with time-series data
+3.  Working with database-style data tables
+4.  Plotting data on maps
 
 They assume some familiarity with Python and the scientific processing stack
 e.g. understanding the difference between a list and a numpy array.  There are
@@ -26,7 +26,7 @@ pip install jupyter pandas matplotlib numpy scipy
 
 Jupyter notebooks, Pandas and other libraries are commonly installed as standard with scientific Python distributions.  The [Anaconda Distribution](https://www.anaconda.com/download/) is a popular example.  
 
-The 4_plotting_maps.ipynb file requires the _basemap_ package.  It requires the GEOS library, so is not always available in pip.  To install on a Debian/Ubuntu-based Linux system, run the following:
+The _4_plotting_maps.ipynb_ file requires the _basemap_ package.  It requires the GEOS library, so is not always available in pip.  To install on a Debian/Ubuntu-based Linux system, run the following:
 
 ```
 sudo apt install libgeos-3.5.1 libgeos-dev python3-dev

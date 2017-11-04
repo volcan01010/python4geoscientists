@@ -1,5 +1,5 @@
-# Improvements to the Python course
+# Improvements to the Python course for future runs
 
-+  Convert to Python 3.0
-+  Add section explaining objects and their methods.
-+  Check possibility of using df.value_counts() and df.isin() syntax for some of the queries.
++  Replace basemap section with cartopy
++  Add section explaining objects and their methods
++  Check df.value_counts() and df.isin() syntax for some of the queries.
