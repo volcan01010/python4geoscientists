@@ -26,14 +26,14 @@ pip install jupyter pandas matplotlib numpy scipy
 
 Jupyter notebooks, Pandas and other libraries are commonly installed as standard with scientific Python distributions.  The [Anaconda Distribution](https://www.anaconda.com/download/) is a popular example.  
 
-The _4_plotting_maps.ipynb_ file requires the _basemap_ package.  It requires the GEOS library, so is not always available in pip.  To install on a Debian/Ubuntu-based Linux system, run the following:
+The `4_plotting_maps.ipynb` file requires the _basemap_ package.  It requires the GEOS library, so is not always available in pip.  To install on a Debian/Ubuntu-based Linux system, run the following:
 
 ```
 sudo apt install libgeos-3.5.1 libgeos-dev python3-dev
 pip install https://github.com/matplotlib/basemap/archive/v1.1.0.tar.gz
 ```
 
-## Running
+## Using the notebooks
 
 Download and start the notebooks by running the following:
 
@@ -43,7 +43,7 @@ cd python4geoscientists
 jupyter notebook
 ```
 
-Your web browser should open at the correct page.
+Your web browser should open at the correct page.  It is recommended to run through the notebooks in order.  You can step through the notebooks with <ctrl-enter>.  At each step, experiment with changing values or adding things to plots.  At the end of each notebook are exercises to try to see how well you have understood what you have seen.
 
 
 ## Data sources
