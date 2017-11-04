@@ -43,7 +43,7 @@ cd python4geoscientists
 jupyter notebook
 ```
 
-Your web browser should open at the correct page.  It is recommended to run through the notebooks in order.  You can step through the notebooks with <ctrl-enter>.  At each step, experiment with changing values or adding things to plots.  At the end of each notebook are exercises to try to see how well you have understood what you have seen.
+Your web browser should open at the correct page.  It is recommended to run through the notebooks in order.  You can step through the notebooks with _ctrl-enter_.  At each step, experiment with changing values or adding things to plots.  At the end of each notebook are exercises to try to see how well you have understood what you have seen.
 
 
 ## Data sources
